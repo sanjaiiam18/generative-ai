@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.0.2/marked.min.js"></script>
+    <link rel="stylesheet" href="agent.css">
+</head>
+<body>
+    <div id="sidebar">
+        <button id="newConversation">New Conversation</button>
+        <div id="conversationList"></div>
+    </div>
+    <div id="mainContent">
+        <div id="loading" class="loading" style="display: none;"></div>
+        <div class="response" id="response"></div>
+        <textarea id="prompt" class="textbox" rows="1" placeholder="Type something..."></textarea>
+
+    </div>
+    <script src="agent.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv-webpack": "^8.1.0",
+    "markdown": "^0.5.0"
+  }
+}
